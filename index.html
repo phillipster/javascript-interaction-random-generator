@@ -10,9 +10,20 @@
 </head>
 
 <body>
-	<script src="randomness.js" charset="utf-8"></script>
+
 	<h1>Welcome to Subway Surfers!</h1>
-	<p>Using our revolutionary technology, artificial uninitelligence will select two stations of the New York City Subway for you to travel between. (The combination of lines and transfers to do so is between you and you alone. And Google Maps, of course.) So click away!</p>
+
+	<p id="intro">Using our revolutionary technology, artificial uninitelligence will select two stations of the New York City Subway for you to travel between. (The combination of lines and transfers to do so is between you and you alone. And Google Maps, of course.) So click away!
+	
+	First, enter your mood, since the algorithm can use it to predict what sort of path would be most applicable to you.</p>
+	
+	<input type="text" id="name" placeholder="Right here!"><br></body>
+
+	<button onclick="generate()">Generate station pair</button>
+
+	<div id="output"></div>
+
+	<script src="randomness.js" charset="utf-8"></script>
 
 </body>
 </html>
